@@ -1,5 +1,5 @@
 <script>
-const title = 'Some Text';
+const title = 'Some Text'
 </script>
 
-<h1 class="text-3xl ">{title}</h1>
+<h1 class="text-3xl text-primary-marine font-bold">{title}</h1>
