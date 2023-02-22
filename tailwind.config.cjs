@@ -19,6 +19,9 @@ module.exports = {
           white: 'hsl(0, 0%, 100%)',
         },
       },
+      backgroundImage: {
+        'sidebar-desktop': 'url(./assets/images/bg-sidebar-desktop.svg)',
+      },
     },
   },
   plugins: [],

@@ -23,5 +23,6 @@
 @layer base {
   body {
     font-family: 'Ubuntu';
+    background-color: theme('backgroundColor.primary.light-blue');
   }
 }

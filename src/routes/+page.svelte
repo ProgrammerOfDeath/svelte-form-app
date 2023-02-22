@@ -1,6 +1,16 @@
 <script>
-import Title from '../components/Title.svelte';
+import { currentStepTitle } from '../stores/stepStore'
+import Form from '../components/Form.svelte'
 </script>
 
-<Title />
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<svelte:head>
+  <title>
+    {$currentStepTitle}
+  </title>
+</svelte:head>
+
+<main class="grid place-content-center h-screen">
+  <section>
+    <Form />
+  </section>
+</main>
